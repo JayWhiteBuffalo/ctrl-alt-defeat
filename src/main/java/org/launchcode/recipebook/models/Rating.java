@@ -21,4 +21,7 @@ public class Rating extends AbstractEntity{
         this.totalVotes = totalVotes;
     }
 
+    public Rating () {}
+
+    
 }
