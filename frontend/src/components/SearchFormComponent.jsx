@@ -7,7 +7,7 @@ export default function SearchFormComponent({
 }) {
   const [searchTerm, setSearchTerm] = useState('');
   const apiKey = config.API_KEY;
-  const maxResults = 3;
+  const maxResults = 6;
 
   const handleInputChange = (event) => {
     setSearchTerm(event.target.value);
